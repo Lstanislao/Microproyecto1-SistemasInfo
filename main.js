@@ -19,7 +19,8 @@ function graficar() {
   let skills={
     "html":30,
     "css":20,
-    "js":10
+    "js":45,
+    "python":76
   } 
   
 
@@ -34,25 +35,55 @@ function graficar() {
   $cssText = document.createTextNode("CSS"),
   $box=document.querySelector(".box-right");
 
-console.log($box);
-$grafico.appendChild($html);
-$grafico.appendChild($css);
-$grafico.appendChild($js);
-$grafico.appendChild($python);
-$python.appendChild($pyText);
-$js.appendChild($jsText);
-$html.appendChild($htmlText);
-$css.appendChild($cssText);
+    $grafico.appendChild($html);
+    $grafico.appendChild($css);
+    $grafico.appendChild($js);
+    $grafico.appendChild($python);
+    $python.appendChild($pyText);
+    $js.appendChild($jsText);
+    $html.appendChild($htmlText);
+    $css.appendChild($cssText);
+
+
+ for (let clave in skills) { 
+   let clase;
+   console.log(skills[clave]);
+    if(skills[clave]<=25)
+    { 
+     
+    clase="cuarto";
+    }else if (skills[clave]<=35) {
+    
+      clase="tercero"; 
+    }else if (skills[clave]<=50) {
+      
+      clase="segundo"
+    }else if (skills[clave]<=100) {
+      clase="primero";
+    }else{
+      clase="ultimo";
+    }
+    
+
+    if (clave=="html"){
+       
+      $html.classList.add(clase);
+    }else if (clave=="css") {
+        
+      $css.classList.add(clase);
+    }else if (clave=="js"){
+    
+      $js.classList.add(clase);
+    }else if( clave=="python"){
+      
+
+      
+      $python.classList.add(clase)
+
+    }
+  }
+
 $grafico.classList.add("grafico");
-
-
-
-$html.classList.add("segundo");
-$css.classList.add("tercero");
-$js.classList.add("cuarto");
-$python.classList.add("primero")
-
-
 $box.appendChild($grafico);
   
 }
