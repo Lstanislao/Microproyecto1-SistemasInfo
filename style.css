@@ -14,6 +14,10 @@ html {
   --second-color: whitesmoke;
 }
 
+li {
+  list-style: none;
+}
+
 body {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
@@ -160,4 +164,86 @@ h1 {
 .button-light:hover {
   background-color: #333333; /* Green */
   color: white;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.Sobre-mi {
+  display: flex;
+  margin-top: 0;
+  background-color: #333333;
+  color: #fff;
+  padding: 0.5em;
+  width: 80%;
+}
+.box-shadow {
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.dualcontainer {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: whitesmoke;
+  margin: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+.container-right {
+  padding: 1em 2em;
+  width: 60%;
+  background: #333333;
+  margin-left: 3em;
+  margin-right: 0.25em;
+}
+
+.container-right h3 {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.container-left {
+  display: flex;
+  padding: 1em 2em;
+  width: 40%;
+  background: #ffffff;
+  margin-left: 0.25em;
+  margin-right: 3em;
+  justify-content: center;
+}
+.second {
+  margin-top: 0em;
+}
+
+.container-right-second {
+  padding: 1em 2em;
+  width: 40%;
+  background: #ffffff;
+  margin-left: 3em;
+  margin-right: 0.25em;
+}
+
+.container-left-second {
+  padding: 1em 2em;
+  width: 60%;
+  background: #333333;
+  margin-left: 0.25em;
+  margin-right: 3em;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  line-height: 1.5em;
+}
+
+.text-container {
+  padding: 0em 1em;
+  width: 50%;
+  text-align: justify;
 }
