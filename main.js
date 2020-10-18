@@ -17,10 +17,10 @@ function carousel() {
 
 function graficar() {
   let skills={
-    "html":30,
-    "css":20,
-    "js":45,
-    "python":76
+    "html":45,
+    "css":30,
+    "js":20,
+    "python":75
   } 
   
 
