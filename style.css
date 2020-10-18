@@ -267,10 +267,14 @@ h1 {
 
 .box-left {
   display: flex;
+  flex-direction: column;
   background-color: #333333;
   width: 50%;
   margin-left: 3em;
   margin-right: 0.25em;
+}
+
+.hcard {
 }
 
 #skills {
