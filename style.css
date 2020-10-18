@@ -98,14 +98,21 @@ h1 {
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
+  align-items: center;
 }
 
-.cards-tittle {
+.section-tittle {
   display: flex;
   color: #222222;
   margin: 1em 0em;
   justify-content: center;
   font-size: 2em;
+  display: flex;
+  margin-top: 1em;
+  background-color: #333333;
+  color: #fff;
+  padding: 0.5em;
+  width: 80%;
 }
 .cards {
   display: flex;
@@ -173,14 +180,6 @@ h1 {
   padding-top: 2em;
 }
 
-.Sobre-mi {
-  display: flex;
-  margin-top: 0;
-  background-color: #333333;
-  color: #fff;
-  padding: 0.5em;
-  width: 80%;
-}
 .box-shadow {
   box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
 }
@@ -308,4 +307,91 @@ h1 {
   width: 5rem;
   background-color: blue;
   margin: 1rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  background-color: #333333;
+}
+
+.contact {
+  color: #ffffff;
+  padding: 0;
+  margin: 0.7em;
+}
+
+.box-contact {
+  display: flex;
+  height: 20em;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  width: 50%;
+  margin-right: 0.25em;
+  justify-content: center;
+}
+
+.form li {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.form span {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.form form {
+  padding: 1em;
+  border: 0.2em solid #fff;
+  align-items: center;
+}
+
+.form input {
+  width: 15em;
+}
+
+.form textarea {
+  width: 25em;
+  height: 3em;
+}
+
+.msg {
+  padding-bottom: 0.1em;
+}
+
+.contact-information {
+  padding-top: 1.2em;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.contact-information li {
+  padding-top: 1em;
+}
+
+.contact-information li i {
+  font-size: 2em;
+}
+
+.form .button-light {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #333333;
+}
+
+.form .button-light:hover {
+  color: #333333;
+  border-color: #333333;
+  background-color: #ffffff;
+  cursor: pointer;
 }

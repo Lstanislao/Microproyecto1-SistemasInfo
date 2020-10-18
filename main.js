@@ -82,5 +82,18 @@ $box.appendChild($grafico);
   
 }
 
+
+
+const mensaje = () => {
+  let name = document.getElementById('nombre').value;
+  let correo =document.getElementById('correo').value;
+  let msg =document.getElementById('msg').value;
+		alert("Hola muy buenas tardes  gracias por contactarme!\n"+"Su nombre es: "+name+ "\n" +"Su correo es: "+ correo + "\n"+ "El mensaje enviado es: "+ msg );
+};
+
+const enviar = document.getElementById('enviar');
+enviar.addEventListener('click', mensaje);
+
+
  
 
