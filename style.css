@@ -135,12 +135,6 @@ h1 {
   font-size: 1.5em;
 }
 
-/*.card:hover {
-  transform: scale(0.97, 0.97);
-  box-shadow: 5px 5px 16px 6px rgba(0, 0, 0, 0.25),
-    -5px -5px 16px 6px rgba(0, 0, 0, 0.22);
-}*/
-
 .card-image {
   height: 50%;
   padding: 1em;
@@ -275,6 +269,21 @@ h1 {
 }
 
 .hcard {
+  margin: 0.5em;
+  background-color: #ffffff;
+  padding: 1em;
+  width: 40rem;
+  height: 5rem;
+  color: #333333;
+  font-size: 1.5em;
+}
+
+.hcard:hover {
+  transform: scale(0.97, 0.97);
+}
+
+.hcard i {
+  font-size: 1.1em;
 }
 
 #skills {
@@ -288,28 +297,32 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 15rem;
-  width: 15rem;
-  background-color: aqua;
 }
 
 .primero {
-  height: 3rem;
-  width: 9rem;
-  background-color: blue;
+  height: 4rem;
+  width: 25rem;
+  background-color: #333333;
   margin: 1rem;
 }
 
 .segundo {
-  height: 3rem;
-  width: 7rem;
-  background-color: blue;
+  height: 4rem;
+  width: 18rem;
+  background-color: #333333;
   margin: 1rem;
 }
 
 .tercero {
-  height: 3rem;
-  width: 5rem;
-  background-color: blue;
+  height: 4rem;
+  width: 13rem;
+  background-color: #333333;
+  margin: 1rem;
+}
+
+.cuarto {
+  height: 4rem;
+  width: 10rem;
+  background-color: #333333;
   margin: 1rem;
 }

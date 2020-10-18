@@ -57,6 +57,8 @@ console.log(orden);
   $html = document.createElement("div"),
   $css = document.createElement("div"),
   $js = document.createElement("div"),
+  $python = document.createElement("div"),
+  $pyText = document.createTextNode("PYTHON"),
   $jsText = document.createTextNode("JS"),
   $htmlText = document.createTextNode("HTML"),
   $cssText = document.createTextNode("CSS"),
@@ -66,6 +68,8 @@ console.log($box);
 $grafico.appendChild($html);
 $grafico.appendChild($css);
 $grafico.appendChild($js);
+$grafico.appendChild($python);
+$python.appendChild($pyText);
 $js.appendChild($jsText);
 $html.appendChild($htmlText);
 $css.appendChild($cssText);
@@ -73,9 +77,10 @@ $grafico.classList.add("grafico");
 
 
 
-$html.classList.add("primero");
-$css.classList.add("segundo");
-$js.classList.add("tercero");
+$html.classList.add("segundo");
+$css.classList.add("tercero");
+$js.classList.add("cuarto");
+$python.classList.add("primero")
 
 
 $box.appendChild($grafico);
