@@ -1,4 +1,7 @@
 var carruselIndex = 0;
+carousel();
+graficar();
+
 
 function carousel() {
 
@@ -12,8 +15,6 @@ function carousel() {
   imagenes[carruselIndex-1].style.display = "block";
   setTimeout(carousel, 2000);
 }
-
-carousel();
 
 function graficar() {
   let skills={
@@ -87,8 +88,6 @@ $grafico.classList.add("grafico");
 $box.appendChild($grafico);
   
 }
-
-graficar();
 
 
 
