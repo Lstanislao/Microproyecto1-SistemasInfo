@@ -1,3 +1,5 @@
+var carruselIndex = 0;
+
 function carousel() {
 
   var index;
@@ -10,6 +12,8 @@ function carousel() {
   imagenes[carruselIndex-1].style.display = "block";
   setTimeout(carousel, 2000);
 }
+
+carousel();
 
 function graficar() {
   let skills={
@@ -84,6 +88,8 @@ $box.appendChild($grafico);
   
 }
 
+graficar();
+
 
 
 const mensaje = () => {
@@ -99,8 +105,3 @@ enviar.addEventListener('click', mensaje);
 
  
 
-var carruselIndex = 0;
-
-
-carousel();
-graficar();
