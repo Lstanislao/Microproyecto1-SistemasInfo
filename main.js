@@ -2,6 +2,7 @@ var carruselIndex = 0;
 carousel();
 graficar();
 
+
 function carousel() {
 
   var index;
