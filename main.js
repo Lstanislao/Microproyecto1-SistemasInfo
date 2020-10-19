@@ -1,8 +1,3 @@
-var carruselIndex = 0;
-carousel();
-graficar();
-
-
 function carousel() {
 
   var index;
@@ -104,3 +99,8 @@ enviar.addEventListener('click', mensaje);
 
  
 
+var carruselIndex = 0;
+
+
+carousel();
+graficar();
